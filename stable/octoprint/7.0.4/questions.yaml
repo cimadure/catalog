@@ -107,6 +107,35 @@ questions:
           schema:
             type: string
             default: ""
+
+
+        - variable: MJPG_STREAMER_INPUT_2
+          label: "MJPG_STREAMER_INPUT_2"
+          description: "MJPG Streamer input parameters"
+          schema:
+            type: string
+            default: ""
+        - variable: CAMERA_DEV_2
+          label: "CAMERA_DEV_2"
+          description: "MJPG Streamer camera device"
+          schema:
+            type: string
+            default: ""
+
+        - variable: MJPG_STREAMER_INPUT_3
+          label: "MJPG_STREAMER_INPUT_3"
+          description: "MJPG Streamer input parameters"
+          schema:
+            type: string
+            default: ""
+        - variable: CAMERA_DEV_3
+          label: "CAMERA_DEV_3"
+          description: "MJPG Streamer camera device"
+          schema:
+            type: string
+            default: ""
+
+
   - variable: TZ
     label: Timezone
     group: "General Settings"
